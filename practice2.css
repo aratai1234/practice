@@ -1,0 +1,371 @@
+@charset "utf-8";
+
+header {
+	width:100%;
+	position:fixed;
+ 	top:0;
+ 	background-color:rgba(0,0,0,0.5);
+}
+
+.title{
+	margin-top:15px;
+	margin-left:60px;
+	display:block;
+	width:50px;
+	height:30px;
+	line-height:30px;
+	color:#000000;
+	background-color:#2b2b2b;
+	border-radius:3px
+	margin-right:20px;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+
+}
+
+.header-container {
+	height:60px;
+	line-height:60px;
+	display:flex;
+	justify-content:space-between;
+	margin-right:50px;
+
+}
+
+.header-container ul {
+	display:flex;
+}
+
+.header-container li {
+	margin-right:20px;
+}
+
+.header-container li:last-child {
+	margin-right:0;
+}
+
+.header-container a {
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:14px;
+}
+
+.header-container a:hover {
+	opacity:0.7;
+}
+
+.keyvisual {
+	height:600px;
+	background-image:url(file:///Users/arataida/Desktop/development/tutorial2/dodo1.jpg);
+	background-repeat:none;
+	background-size:cover;
+	background-position:center;
+}
+
+.keyvisual-container {
+	height:600px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	color:#ffffff;
+	text-shadow:0 2px 5px rgba(0,0,0,5);
+}
+
+.keyvisual-container h1{
+	font-weight:bold;
+	font-size:60px;
+	margin:auto;
+}
+
+.keyvisual-container h2{
+	font-size:24px;
+	margin:auto;
+}
+
+.keyvisual-container .keyvisual-discription{
+	font-size:22px;
+	margin-:auto;
+}
+
+.keyvisual-container .keyvisual-data{
+	font-size:60px;
+	font-weight:bold;
+	margin:auto;
+}
+
+.keyvisual-container .keyvisual-place{
+	font-size:20px;
+	margin:auto;
+}
+
+.about{
+	background-image:url(file:///Users/arataida/Desktop/development/tutorial2/dodo2.jpg);
+	background-repeat:none;
+	background-size:cover;
+	background-position:center;
+}
+
+.about-container{
+	color:#ffffff;
+	text-align:center;
+	font-size:20px;
+	padding:80px 0;
+	line-height:28px;
+	max-width:1000px;
+	margin:0 auto;
+	text-shadow:0 2px 5px rgba(0,0,0,1);
+
+}
+
+.about-container h2{
+	font-size:60px;
+	font-weight:bold;
+	margin-bottom:30px;
+	text-shadow:0 2px 5px rgba(255,255,255,5);
+}
+
+.topsong{
+	background-image:url(file:///Users/arataida/Desktop/development/tutorial2/dodo4.jpg);
+	background-repeat:none;
+	background-size:cover;
+	background-position:center;
+	padding:50px;
+}
+
+
+.news-container h2 {
+	font-size:60px;
+	font-weight:bold;
+	margin-bottom:30px;
+	text-align:center;
+	text-shadow:0 2px 5px rgba(118,118,118,5);
+}
+
+.news-container h5 {
+	color:#fff
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:30px;
+	text-align:center;
+	text-shadow:0 2px 5px rgba(118,118,118,5);
+}
+
+
+
+
+.news-container ul{
+	display:flex;
+	justify-content:center;
+}
+
+.news-container li{
+	list-style:none;
+	width:280px;
+	text-align:center;
+	background-color:#eee;
+	padding:10px;
+	margin-right:20px;
+	border-radius:3px;
+}
+
+.news.container li:last-child{
+	margin-right:0;
+}
+/**.news-image{
+	width:280px;
+	height:280px;
+	margin:0 auto;
+	background-color:#ddd;
+}**/
+
+.news-container li p{
+	padding-top:10px;
+	font-size:16px;
+}
+
+.video{
+	background-image:url(file:///Users/arataida/Desktop/development/tutorial2/dodo3.jpg);
+	background-repeat:none;
+	background-size:cover;
+	background-position:center;
+}
+
+.video-container{
+	padding:80px 0;
+	
+	
+}
+
+.video-container h2{
+	color:#fff;
+	font-size:60px;
+	font-weight:bold;
+	text-align:center;
+	margin:auto;
+	text-shadow:0 2px 5px rgba(0,0,0,5);
+}
+
+.video-container ul{
+	display:flex;
+	justify-content:center;
+}
+
+.video-container li{
+	list-style:none;
+	width:400px;
+	height:200px;
+	text-align:center;
+	margin-right:100px;
+}
+
+.video-container li:last-child{
+	margin-right:0;
+}
+
+.video-container li iframe{
+	width:400px;
+	height:200px;
+	margin:auto;
+}
+
+.history{
+	background-image:url(file:///Users/arataida/Desktop/development/tutorial2/dodo5.jpg);
+	background-repeat:none;
+	background-size:cover;
+	background-position:center;
+}
+
+.history-title{
+	padding-top:80px;
+	color:#fff;
+	font-size:60px;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:0 2px 5px rgba(0,0,0,.5);
+}
+
+.history-subtitle{
+	color:#fff;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:0 2px 5px rgba(0,0,0,.5);
+
+}
+
+.history-container ul{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.history-container a{
+	display:block;
+	width:200px;
+	height:150px;
+	line-height:150px;
+	background-color:#696969;
+	border-radius:3px
+	margin:auto;
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0 2px 5px rgba(255,255,255,5):
+}
+
+.history-container a:hover{
+	opacity:0.8;
+}
+
+.history-container .history-image{
+	color:#fff;
+}
+
+.history-container li{
+	list-style:none;
+	margin:50px;
+}
+
+.history-container li:last-child{
+	margin-right:0;
+}
+
+.access{
+	
+	background-color:#111;
+	padding:20px
+}
+
+.access-container h2{
+	color:#fff;
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:30px;
+	text-shadow:0 2px 5px rgba(255,255,255,.5)
+}
+
+.access-container .access-map{
+	width:100%;
+	height:500px;
+}
+
+.access-container .access-map iframe{
+	width:100%;
+	height:100%;
+}
+
+.contact-form h3{
+	color:#000000;
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:0 2px 5px rgba(118,118,118.5);
+	margin-bottom:20px;
+}
+.contact-form {
+  padding:40px;
+  margin:auto;
+  text-align:center;
+  justify-content: space-between;
+}
+
+.contact-form p{
+	padding:10px;
+}
+
+input {
+  width:80%;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+textarea {
+  width:80%;
+  height:100px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+
+
+.contact-submit {
+	margin-top:20px;
+  	background-color:#797979;
+  	color:#ffffff;
+}
+
+
+footer {
+	height:80px;
+	line-height:80px;
+	background-color:#000000;
+	color:#ffffff;
+	text-align:center;
+	font-size:12px;
+}
