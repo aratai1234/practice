@@ -195,7 +195,7 @@ header {
 }
 
 .video-container{
-	padding:80px 0;
+	padding:80px 0　0 0;
 	
 	
 }
@@ -205,7 +205,6 @@ header {
 	font-size:60px;
 	font-weight:bold;
 	text-align:center;
-	margin:auto;
 	text-shadow:0 2px 5px rgba(0,0,0,5);
 }
 
